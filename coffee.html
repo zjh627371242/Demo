@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>day2</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .head {
+            width: 100%;
+            height: 70%;
+            background-color: #19005e;
+        }
+        
+        #title {
+            float: left;
+        }
+        
+        .center {
+            width: 100%;
+            height: 3200px;
+            background-color: #91d5ff;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 10%;
+            background-color: blue;
+        }
+        
+        .center .left {
+            width: 20%;
+            height: 100%;
+            background-color: cornsilk;
+            float: left;
+        }
+        
+        .right {
+            width: 80%;
+            height: 3200px;
+            background-color: #caccce;
+            float: left;
+        }
+        
+        .right_top {
+            width: 70%;
+            height: 100px;
+            background-color: hsl(216, 92%, 65%);
+            margin: 0 auto;
+        }
+        
+        .head .img1 {
+            height: 100px;
+            width: 400px;
+            background-color: #19005e;
+            margin: 0 auto;
+        }
+        
+        .img1 .coffee {
+            height: 100px;
+            width: 50px;
+            float: left;
+            margin-top: 10px;
+        }
+        
+        .img1 #title {
+            padding-left: 6px;
+        }
+        
+        .img1 p {
+            margin-top: 35px;
+            float: left;
+            font-size: 30px;
+            color: white;
+        }
+        
+        .right_top img {
+            width: 1000px;
+            height: 700px;
+        }
+        
+        .left .choose {
+            position: fixed;
+        }
+        
+        .left .choose li {
+            padding-top: 50px;
+            margin-left: 80px;
+            list-style-type: none;
+        }
+        
+        .left .choose ul {
+            position: fixed;
+        }
+        
+        .footer p {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            vertical-align: middle;
+        }
+        
+        .right_bottom {
+            padding-left: 200px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: darkslategrey
+        }
+        
+        .center .right table {
+            margin: 20px auto;
+            width: 500px;
+            height: 250px;
+            border-collapse: collapse;
+        }
+        
+        .center .right table td,
+        .center .right table th {
+            border: 1px solid #000;
+        }
+        
+        .center .right table td {
+            text-align: center;
+            line-height: 100%;
+        }
+        
+        .title {
+            height: 300px;
+            width: 300px;
+            margin: 20px auto;
+        }
+        
+        .title img {
+            width: 260%;
+            height: 100%;
+            margin-left: -235px;
+        }
+        
+        #coffee1,
+        #coffee2,
+        #coffee3,
+        #coffee4,
+        #coffee5 {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="img1">
+            <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/logo.png" alt="" style="width: 250px;height: 75px;" class="coffee">
+            <p id="title">瑞幸咖啡</p>
+        </div>
+
+    </div>
+    <div class="center">
+        <div class="left">
+            <ul class="choose">
+                <li><a href="#coffee1">拿铁</a></li>
+                <li><a href="#coffee2">卡布奇洛</a></li>
+                <li><a href="#coffee3">奥瑞白</a></li>
+                <li><a href="#coffee4">美式咖啡</a></li>
+                <li><a href="#coffee5">焦糖玛奇朵</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <div class="title">
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_coffee_main_new.jpg" alt="">
+            </div>
+            <table>
+                <tr>
+                    <th>咖啡名称</th>
+                    <th>咖啡价格(元/杯)</th>
+                </tr>
+                <tr>
+                    <td>拿铁</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>卡布奇诺</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>奥瑞白</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>美式咖啡</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>焦糖玛奇朵</td>
+                    <td>100</td>
+                </tr>
+            </table>
+            <br><br><br>
+            <div id="coffee1">
+
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_tea_main-1.jpg" alt="" id="coffee1">
+
+
+                <h3>拿铁</h3>
+
+                <p>卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶，并在上面撒上小颗粒的肉桂粉末。
+                </p>
+            </div>
+            <div id="coffee2">
+                <br><br><br><br><br>
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_tea_1-1.jpg " alt="">
+                <h3>卡布奇诺</h3>
+
+                <p>卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶，并在上面撒上小颗粒的肉桂粉末。
+                </p>
+            </div>
+            <div id="coffee3">
+                <br><br><br><br><br>
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_tea_2-1.jpg " alt="">
+
+                <h3>奥瑞白</h3>
+
+                <p>卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶，并在上面撒上小颗粒的肉桂粉末。
+                </p>
+            </div>
+            <div id="coffee4">
+                <br><br><br><br><br>
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_tea_6-1.jpg" alt="">
+
+                <h3>美式咖啡</h3>
+
+                <p>卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶，并在上面撒上小颗粒的肉桂粉末。
+                </p>
+            </div>
+            <div id="coffee5">
+                <br><br><br><br><br>
+                <img src="https://s2.luckincoffeecdn.com/luckywebrm/images/pimg/tea/product/product_wheel_tea_8-1.jpg" alt="">
+
+                <h3>焦糖玛奇朵</h3>
+
+                <p>卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶，并在上面撒上小颗粒的肉桂粉末。
+                </p>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>版权所有&copy瑞幸咖啡</p>
+    </div>
+</body>
+
+</html>
