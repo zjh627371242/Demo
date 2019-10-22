@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100%;
+    height: 70%;
+    background-color: #19005e;
+}
+
+#title {
+    float: left;
+}
+
+.center {
+    width: 100%;
+    height: 3200px;
+    background-color: #91d5ff;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+
+.center .left {
+    width: 20%;
+    height: 100%;
+    background-color: cornsilk;
+    float: left;
+}
+
+.right {
+    width: 80%;
+    height: 3200px;
+    background-color: #caccce;
+    float: left;
+}
+
+.right_top {
+    width: 70%;
+    height: 100px;
+    background-color: hsl(216, 92%, 65%);
+    margin: 0 auto;
+}
+
+.head .img1 {
+    height: 100px;
+    width: 400px;
+    background-color: #19005e;
+    margin: 0 auto;
+}
+
+.img1 .coffee {
+    height: 100px;
+    width: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.img1 #title {
+    padding-left: 6px;
+}
+
+.img1 p {
+    margin-top: 35px;
+    float: left;
+    font-size: 30px;
+    color: white;
+}
+
+.right_top img {
+    width: 1000px;
+    height: 700px;
+}
+
+.left .choose {
+    position: fixed;
+}
+
+.left .choose li {
+    padding-top: 50px;
+    margin-left: 80px;
+    list-style-type: none;
+}
+
+.left .choose ul {
+    position: fixed;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+
+.right_bottom {
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey
+}
+
+.center .right table {
+    margin: 20px auto;
+    width: 500px;
+    height: 250px;
+    border-collapse: collapse;
+}
+
+.center .right table td,
+.center .right table th {
+    border: 1px solid #000;
+}
+
+.center .right table td {
+    text-align: center;
+    line-height: 100%;
+}
+
+.title {
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.title img {
+    width: 260%;
+    height: 100%;
+    margin-left: -235px;
+}
+
+#coffee1,
+#coffee2,
+#coffee3,
+#coffee4,
+#coffee5 {
+    margin-left: 20px;
+}
