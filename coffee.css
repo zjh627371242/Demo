@@ -27,7 +27,6 @@
 
 .center .left {
     width: 20%;
-    height: 100%;
     background-color: cornsilk;
     float: left;
 }
@@ -113,15 +112,6 @@ li:active {
     position: fixed;
 }
 
-.footer p {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    vertical-align: middle;
-}
-
 .right_bottom {
     padding-left: 200px;
 }
@@ -169,7 +159,7 @@ p:not(#title) {
     height: 300px;
 }
 
-p:not(#title, .footer p)::first-letter {
+p:not(#title):not(#footer-p)::first-letter {
     font-size: 32px;
     font-weight: bold;
 }
@@ -190,4 +180,13 @@ tr td:nth-child(2)::before {
     display: block;
     width: 500px;
     margin: 10px auto;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
 }
