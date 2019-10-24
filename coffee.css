@@ -138,16 +138,8 @@ a {
     line-height: 100%;
 }
 
-.title {
-    height: 300px;
-    width: 600px;
+.top {
     margin: 20px auto;
-}
-
-.title img {
-    width: 260%;
-    height: 100%;
-    margin-left: -235px;
 }
 
 p:not(#title) {
@@ -157,19 +149,17 @@ p:not(#title) {
 
 .coffeeimg {
     height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.coffeeh3 {
+    text-align: center;
 }
 
 p:not(#title):not(#footer-p)::first-letter {
     font-size: 32px;
     font-weight: bold;
-}
-
-#coffee1,
-#coffee2,
-#coffee3,
-#coffee4,
-#coffee5 {
-    margin-left: 20px;
 }
 
 tr td:nth-child(2)::before {
@@ -178,7 +168,7 @@ tr td:nth-child(2)::before {
 
 #autoplay {
     display: block;
-    width: 500px;
+    width: 700px;
     margin: 10px auto;
 }
 
