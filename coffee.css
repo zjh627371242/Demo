@@ -15,7 +15,7 @@
 
 .center {
     width: 100%;
-    height: 3200px;
+    overflow: hidden;
     background-color: #91d5ff;
 }
 
@@ -34,9 +34,9 @@
 
 .right {
     width: 80%;
-    height: 3200px;
+    overflow: hidden;
     background-color: #caccce;
-    float: left;
+    float: right;
 }
 
 .right_top {
@@ -87,14 +87,26 @@
     height: 50px;
     text-align: center;
     line-height: 3;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .left .choose li:not(:last-child) {
-    border-bottom: bisque solid 3px;
+    border-bottom: white 3px solid;
+}
+
+.left .choose a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 li:hover {
     background-color: cadetblue;
+}
+
+li:active {
+    background-color: rgb(94, 93, 93);
 }
 
 .left .choose ul {
@@ -157,8 +169,8 @@ p:not(#title) {
     height: 300px;
 }
 
-p:not(#title)::first-letter {
-    font-size: 30px;
+p:not(#title, .footer p)::first-letter {
+    font-size: 32px;
     font-weight: bold;
 }
 
