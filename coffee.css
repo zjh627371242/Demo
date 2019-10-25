@@ -15,7 +15,6 @@
 
 .center {
     width: 100%;
-    overflow: hidden;
     background-color: #91d5ff;
 }
 
@@ -27,13 +26,12 @@
 
 .center .left {
     width: 20%;
-    background-color: cornsilk;
+    height: 500px;
     float: left;
 }
 
 .right {
     width: 80%;
-    overflow: hidden;
     background-color: #caccce;
     float: right;
 }
@@ -78,6 +76,7 @@
 .left .choose {
     position: fixed;
     width: 20%;
+    height: 300px;
 }
 
 .left .choose li {
@@ -106,10 +105,6 @@ li:hover {
 
 li:active {
     background-color: rgb(94, 93, 93);
-}
-
-.left .choose ul {
-    position: fixed;
 }
 
 .right_bottom {
@@ -179,4 +174,15 @@ tr td:nth-child(2)::before {
     padding-top: 15px;
     padding-bottom: 15px;
     vertical-align: middle;
+}
+
+tbody tr:hover {
+    background: rgb(159, 157, 160);
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
