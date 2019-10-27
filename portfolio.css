@@ -1,0 +1,207 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    color: cornsilk;
+    background-color: rgb(18, 43, 49);
+    line-height: 55px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(26, 27, 27);
+}
+
+.buju {
+    padding: 0px 120px 0 120px;
+}
+
+
+/* 图标 */
+
+.littelogo {
+    vertical-align: middle;
+    width: 55px;
+    height: 50px;
+}
+
+
+/* 图标 */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 10px 0 10px;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover {
+    background-color: rgb(55, 55, 59);
+    font-weight: bolder;
+}
+
+.dropbtn {
+    background-color: rgb(28, 208, 253);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown:hover .ri {
+    background-color: blue;
+}
+
+
+/* 创建三个相等的列 */
+
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* 列后清除浮动 */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: burlywood;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img:hover {
+    border: 2px solid rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 8%;
+    height: 7px;
+    background-color: black;
+}
+
+.margin50px {
+    margin: 50px;
+}
+
+.borderbottom {
+    border-bottom: 5px solid black;
+    overflow: hidden;
+}
+
+#erweima {
+    width: 160px;
+    height: 160px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.buju .borderbottom .floatleft {
+    width: 75%;
+    float: left;
+}
+
+.buju .borderbottom .floatright {
+    width: 25%;
+    float: right;
+}
+
+.biaoti2 {
+    text-align: center;
+    line-height: 50px;
+}
+
+.img a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+.footer-p {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.jianjie {
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-top: 50px;
+    text-indent: 5px;
+}
