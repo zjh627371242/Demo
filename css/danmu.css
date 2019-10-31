@@ -1,0 +1,39 @@
+.container {
+    margin: 30px auto;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    background-color: rgb(177, 249, 252);
+}
+
+.menu-bar {
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    margin: 15px;
+    color: rgb(82, 62, 61);
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-weight: bold;
+}
+
+.btn:active {
+    background-color: cyan;
+}
+
+#bullet-text {
+    width: 200px;
+    height: 30px;
+}

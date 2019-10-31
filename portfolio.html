@@ -17,9 +17,18 @@
     <header>
         <ul>
             <li class="floatleft"><img src="https://img.alicdn.com/tfs/TB17DTuXkH0gK0jSZPiXXavapXa-680-133.svg" alt="" class="littelogo"> 优酷剧集</li>
-            <li><a href="">聊一聊</a></li>
-            <li><a href="">喜欢的书</a></li>
-            <li><a href="">喜欢的电影</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">更多菜单</button>
+                <div class="dropdown-content">
+                    <a href="#">关于</a>
+                    <a href="#">其他</a>
+                    <a href="#">合作</a>
+                </div>
+            </div>
+            <li><a href="#jianjie">聊一聊</a></li>
+            <li><a href="#books">喜欢的书</a></li>
+            <li><a href="#movies">喜欢的电影</a></li>
+
             <div style="clear: both;"></div>
         </ul>
         <div style="clear: both;"></div>
@@ -29,7 +38,7 @@
     <div class="body">
         <div class="buju">
             <div class="biaoti2">
-                <h2>喜欢的电影</h2>
+                <h2 id="movies">喜欢的电影</h2>
                 <hr>
             </div>
             <div class="row">
@@ -63,7 +72,7 @@
                 </div>
             </div>
             <div class="biaoti2">
-                <h2>喜欢的书</h2>
+                <h2 id="books">喜欢的书</h2>
                 <hr>
             </div>
             <div class="row">
@@ -103,7 +112,7 @@
     <footer>
         <div class="buju">
             <div class="borderbottom">
-                <p class="jianjie">王小波说他是一只特立独行的猪，那我就当一只特立独行的鱼吧。交个朋友么？扫一扫旁边的二维码吧</p>
+                <p id="jianjie">王小波说他是一只特立独行的猪，那我就当一只特立独行的鱼吧。交个朋友么？扫一扫旁边的二维码吧</p>
                 <div class="floatright">
                     <div class="margin50px"><img src="./image/erweima.png" alt="" id="erweima"></div>
                 </div>
