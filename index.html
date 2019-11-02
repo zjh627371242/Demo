@@ -1,27 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="image/logo.ico" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 </head>
+
 <body>
-    <h2>First page</h2>
-    <h2>实训</h2>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>
-    <h3>Next Chapter</h3>
-    <a href="./a.html">Goto a Page</a>
-    <br>
-    <a href="./b.html">Goto b Page</a>
-	<br>
-	<a href="./new.html">Goto new Page</a>
-	<br>
-	<a href="./new2.html">Goto new2 Page</a>
-	
+    <div class="header width_all">
+        <ul class="link">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="danmu.html">弹幕墙</a></li>
+        </ul>
+        <div class="logo">
+            <a href="#">
+                <img src="image/logo.ico" alt="">
+                <span>爱奇艺</span>
+            </a>
+        </div>
+
+    </div>
+    <!-- 轮播图区域 -->
+    <div class="banner">
+        <ul id="imgList">
+            <li class="first">
+                <a href="#"><img src="image/lunbo1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/lunbo2.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/lunbo3.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/lunbo4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/lunbo5.jpg" alt=""></a>
+            </li>
+            <li class="first">
+                <a href="#"><img src="image/lunbo6.jpg" alt=""></a>
+            </li>
+        </ul>
+        <div class="navDiv">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+        <div class="left">&#60</div>
+        <div class="right">></div>
+    </div>
+    <!-- 服务范围 -->
+    <div class="service">
+        <h2>服务范围</h2>
+        <div class="content_service width_all">
+            <!-- <div class="service_title">
+            <h2>服务范围</h2>
+        </div> -->
+            <div class="service_content">
+                <ul class="service_content_img">
+                    <li><img src="image/map.png" alt="">
+                        <p>上门</p>
+                    </li>
+                    <li><img src="image/msg.png" alt="">
+                        <p>邮箱</p>
+                    </li>
+                    <li><img src="image/call.png" alt="">
+                        <p>联系</p>
+                    </li>
+                    <li><img src="image/wechat.png" alt="">
+                        <p>wechat</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content_member width_all">
+        <div class="member_title">
+            <h2>综艺介绍</h2>
+        </div>
+        <div class="content_main">
+            <div class="main1">
+                <img src="image/teem.jpg">
+                <div class="main_introduce1">
+                    <h2>热血少年</h2>
+                    <span>江山代有神剧出，各领风骚很多年！被震惊多次，被雷翻多回，被扑倒多遍。神剧滚滚，可谓剧情斗二台词坑爹，大神中的真神，电视剧中的战斗剧。被摧残无数的亲们，来看看那些就算把咱都格式化了也忘不掉的神剧吧！本节目根据电视剧的情节进行二次创作——恶搞、穿越、多部剧交叉、二次配音、重新剪辑等多方位全方面地展示。将电视剧中的bug、电视剧中的雷人片段、电视剧中可窥视到的种种问题，进行更细微化更幽默化的呈现。</span>
+
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>刘宇宁讲述与《热血少年》的缘分，放弃火爆的直播热度投身剧组拍摄是他做过最热血的事！不过对于卫乘风这个角色他本人都恨得牙痒痒，直言“卫乘风去死吧！”身为大厨的他，理想型竟然是厨艺好的女生，这是为啥嘞？戳视频一探究竟！</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main2">
+                <div class="main_introduce2">
+                    <h2>热血少年</h2>
+                    <span>江山代有神剧出，各领风骚很多年！被震惊多次，被雷翻多回，被扑倒多遍。神剧滚滚，可谓剧情斗二台词坑爹，大神中的真神，电视剧中的战斗剧。被摧残无数的亲们，来看看那些就算把咱都格式化了也忘不掉的神剧吧！本节目根据电视剧的情节进行二次创作——恶搞、穿越、多部剧交叉、二次配音、重新剪辑等多方位全方面地展示。将电视剧中的bug、电视剧中的雷人片段、电视剧中可窥视到的种种问题，进行更细微化更幽默化的呈现。</span>
+
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>刘宇宁讲述与《热血少年》的缘分，放弃火爆的直播热度投身剧组拍摄是他做过最热血的事！不过对于卫乘风这个角色他本人都恨得牙痒痒，直言“卫乘风去死吧！”身为大厨的他，理想型竟然是厨艺好的女生，这是为啥嘞？戳视频一探究竟！</span>
+                    </div>
+                </div>
+                <img src="image/teem.jpg">
+            </div>
+            <div class="main3">
+                <div class="main_introduce3">
+                    <h2>热血少年</h2>
+                    <span>江山代有神剧出，各领风骚很多年！被震惊多次，被雷翻多回，被扑倒多遍。神剧滚滚，可谓剧情斗二台词坑爹，大神中的真神，电视剧中的战斗剧。被摧残无数的亲们，来看看那些就算把咱都格式化了也忘不掉的神剧吧！本节目根据电视剧的情节进行二次创作——恶搞、穿越、多部剧交叉、二次配音、重新剪辑等多方位全方面地展示。将电视剧中的bug、电视剧中的雷人片段、电视剧中可窥视到的种种问题，进行更细微化更幽默化的呈现。</span>
+
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>刘宇宁讲述与《热血少年》的缘分，放弃火爆的直播热度投身剧组拍摄是他做过最热血的事！不过对于卫乘风这个角色他本人都恨得牙痒痒，直言“卫乘风去死吧！”身为大厨的他，理想型竟然是厨艺好的女生，这是为啥嘞？戳视频一探究竟！</span>
+                    </div>
+                </div>
+            </div>
+            <img src="image/teem.jpg">
+        </div>
+    </div>
+
+    </div>
+
+    <!-- 新闻动态 -->
+    <div class="content_new width_all">
+        <div class="content_new_word">
+            <h2>电影动态</h2>
+        </div>
+        <div class="content_new_image">
+            <ul id="new">
+
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer_on">
+            <div class="footer1"><img src='image/map.png' alt="">
+                <p>上门</p>
+            </div>
+            <div class="footer2"><img src="image/msg.png" alt="">
+                <p>邮箱</p>
+            </div>
+            <div class="footer3"><img src="image/call.png" alt="">
+                <p>联系</p>
+            </div>
+            <div class="footer4"><img src="image/wechat.png" alt="">扫一扫</div>
+        </div>
+        <div class="footer_end">
+            <hr>
+            <p>版权所有&爱奇艺</p>
+        </div>
+    </div>
 </body>
+
+<script src="jquery-1.12.4.js"></script>
+<script src="./js/index.js"></script>
+
 </html>
